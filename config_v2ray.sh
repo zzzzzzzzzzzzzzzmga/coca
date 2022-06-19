@@ -6,4 +6,5 @@ read -p "Vui lòng nhập node ID :" aiko_node_id
 
       wget https://raw.githubusercontent.com/zzzzzzzzzzzzzzzmga/coca/main/config/Config-V2ray.yml -O /etc/XrayR/aiko.yml
       wget https://raw.githubusercontent.com/AikoXrayR-Project/AikoXrayR-DockerInstall-Beta/main/config/AikoBlock -O /etc/XrayR/AikoBlock
+      wget https://raw.githubusercontent.com/zzzzzzzzzzzzzzzmga/coca/main/docker-compose.yml -O /etc/XrayR/docker-compose.yml
       sed -i "s/NodeID:.*/NodeID: ${aiko_node_id}/g" /etc/XrayR/aiko.yml
