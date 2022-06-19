@@ -42,4 +42,4 @@ elif [ "$choose_unlock_port" == "2" ]; then
         read -p ""
     fi
 else
-    echo -e "${red}Bạn đã chọn sai, vui lòng chọn lại [1-2]${plain}"
+    echo -e "${red}Bạn đã chọn sai, vui lòng
