@@ -15,8 +15,8 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board, PMpanel, Proxypanel
     ApiConfig:
-      ApiHost: "http://aikocute.com"
-      ApiKey: "123"
+      ApiHost: "https://ezdigi.biz"
+      ApiKey: "1kenhdidong_mmmzo"
       NodeID: 41
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
