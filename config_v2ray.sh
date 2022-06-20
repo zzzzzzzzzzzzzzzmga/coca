@@ -15,6 +15,6 @@ read -p "  Giới hạn thiết bị :" DeviceLimit
       wget https://raw.githubusercontent.com/zzzzzzzzzzzzzzzmga/coca/main/config/Config-V2ray.yml -O /etc/XrayR/aiko.yml
       wget https://raw.githubusercontent.com/ezDiGi/keypem/main/AikoBlock -O /etc/XrayR/AikoBlock
       wget https://raw.githubusercontent.com/zzzzzzzzzzzzzzzmga/coca/main/docker-compose.yml -O /etc/XrayR/docker-compose.yml
-      sed -i "s|NodeID:.*|NodeID: ${node_id}|" ./etc/XrayR/aiko.yml
+      sed -i "s|NodeID:.*|NodeID: ${node_id}|" /etc/XrayR/aiko.yml
       sed -i "s|DeviceLimit:.*|DeviceLimit: ${limit}|" /etc/XrayR/aiko.yml
       sed -i "s|SpeedLimit:.*|SpeedLimit: ${limit_speed}|" /etc/XrayR/aiko.yml
