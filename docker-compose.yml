@@ -6,4 +6,3 @@ services:
       - ./config:/etc/XrayR/ #AikoCute
     restart: always
     network_mode: host
-
