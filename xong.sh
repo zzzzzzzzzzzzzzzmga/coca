@@ -139,7 +139,7 @@ pre_install_docker_compose() {
 
 create_docker_compose(){
     echo -e "${green}Tạo file docker-compose.yml${plain}"
-    cat >docker-compose.yml <<EOF
+    cat >/AikoXrayR-Dockerinstall/docker-compose.yml <<EOF
 version: '3'
 services: 
   xrayr: 
