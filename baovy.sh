@@ -3,7 +3,7 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 
 # Current folder
-cur_dir=$(pwd)
+/etc/XrayR
 # Color
 red='\033[0;31m'
 green='\033[0;32m'
